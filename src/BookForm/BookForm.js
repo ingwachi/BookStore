@@ -3,6 +3,9 @@ import Header from "../Header/Header";
 import Firebase from "../Firebase/Firebase";
 import { Form, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Upload, message } from 'antd';
+import { LoadingOutlined, PlusOutlined } from '@ant-design/icons';
+import 'antd/dist/antd.css';
 
 const db = Firebase.firestore();
 
